@@ -1,0 +1,38 @@
+.libros {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 0;
+}
+
+.libros li {
+    padding: 0;
+    cursor: pointer;
+    background-color: #c0cbdb;
+    color: black;
+    width: 200px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.libros li img {
+    border-bottom: 1px solid black;
+    width: 200px;
+    height: 300px;
+}
+
+.libros .libroAgregado {
+    background-color: rgba(192, 203, 219, 0.5);
+}
+
+.libros .libroAgregado * {
+    opacity: 0.5;
+}
+
+.libros .libroAgregado img {
+    opacity: 1 !important;
+}

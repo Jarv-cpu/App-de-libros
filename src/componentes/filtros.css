@@ -1,0 +1,12 @@
+.headerFiltros{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.divFiltros{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
